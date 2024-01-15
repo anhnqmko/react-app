@@ -1,0 +1,17 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "jsx": "react",
+        "sourceMap": false,
+        "removeComments": false,
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "lib": ["ES5", "DOM"]
+    },
+    "include": ["./**/*"],
+    "exclude": ["node_modules"]
+}

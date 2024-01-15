@@ -1,0 +1,22 @@
+.login {
+    form {
+        display: flex;
+        flex-direction: column;
+        label {
+            margin-bottom: 1em;
+        }
+        input[type="text"], input[type="password"] {
+            padding: 0.5em;
+            font-size: 1em;
+            width: 100%;
+        }
+        input[type="submit"] {
+            cursor: pointer;
+            padding: 0.5em;
+            font-size: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+    }
+}
